@@ -2,11 +2,10 @@
 {
     public class Answer
     {
-        //adding a comment should do the trick.
         private int? idAnswer = 0;
         private int? idQuestion = 0;
         private string text ="";
-        private int? errorCost = 99;
+        private int? errorCost = 100;
         private bool? isCorrect = false;
         private bool? isOpenAnswer = false;
         private bool? isMutex = false;
